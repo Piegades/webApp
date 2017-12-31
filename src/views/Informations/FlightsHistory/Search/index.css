@@ -1,0 +1,120 @@
+/*!
+ * Copyright 2015-2016,  Ten Eleven Ltd.
+ * All rights reserved.
+ *
+ * This source code is licensed under the Apache 2.0 license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @providesModule Searchkit
+ *
+ */
+
+.sk-search-box {
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+.sk-search-box form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  position: relative;
+}
+.sk-search-box__text {
+  background: #fff;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+  padding: 10px 10px;
+  font-size: 18px;
+  border: none;
+  width: 302px;
+}
+.sk-search-box__text:focus {
+  outline: 0;
+}
+.sk-search-box__action {
+  visibility: hidden;
+} /*
+.sk-layout__results {
+    background: #fff;
+    margin-left: 15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .08);
+    max-height: 300px;
+    width: 320px;
+}*/
+.sk-search-box {
+  border-radius: 3px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.sk-hits-grid,
+.sk-hits-list {
+  margin: 0 15px 20px;
+}
+.sk-hits-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: black;
+}
+.sk-hits-grid__no-results {
+  text-align: center;
+  margin-top: 60px;
+}
+.sk-hits-grid__item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 300px;
+  -ms-flex: 1 1 300px;
+  flex: 1 1 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1px 0 5px 0;
+}
+.sk-hits-grid-hit {
+  max-width: 300px;
+}
+.sk-hits-grid-hit__title {
+  margin-top: 7px;
+  font-size: 14px;
+}
+.sk-hits-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 300px;
+}
